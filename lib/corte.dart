@@ -65,7 +65,7 @@ class Corte extends StatelessWidget {
                   Container(
                       margin: EdgeInsets.only(top: 110, right: 20, left: 10),
                       width: 140,
-                      height: 300,
+                      height: 250,
                       decoration: BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.fill,

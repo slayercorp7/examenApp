@@ -25,7 +25,7 @@ class Pintura extends StatelessWidget {
               Column(
                 children: [
                   Container(
-                    margin: EdgeInsets.only(top: 110, left: 20),
+                    margin: EdgeInsets.only(top: 100, left: 20),
                     width: 200,
                     height: 150,
                     child: RichText(
@@ -33,17 +33,19 @@ class Pintura extends StatelessWidget {
                       text: TextSpan(
                         text: 'Significado:',
                         style: TextStyle(
-                          fontSize: 15,
+                          fontSize: 20,
                           color: Colors.black,
                         ),
                         children: <TextSpan>[
                           TextSpan(
                               text:
                                   '\nAcción de recubrir una pieza terminada con la finalidad \nde preservar sus caracteristicas,',
-                              style: TextStyle(fontWeight: FontWeight.bold)),
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold, fontSize: 15)),
                           TextSpan(
                               text:
-                                  '\nDe esta manera se dice a la etapa final de producción.(acabados) .'),
+                                  '\nDe esta manera se dice a la etapa final de producción.(acabados) .',
+                              style: TextStyle(fontSize: 15)),
                         ],
                       ),
                     ),

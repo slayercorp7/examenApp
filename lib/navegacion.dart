@@ -42,13 +42,13 @@ class _Navegacion extends State {
           iconSize: 12,
           items: [
             BottomNavigationBarItem(
-                icon: Icon(MyFlutterApp.chalkboard_teacher), label: "inicio"),
+                icon: Icon(MyFlutterApp.walking), label: "inicio"),
             BottomNavigationBarItem(
-                icon: Icon(MyFlutterApp.splotch), label: "medición"),
+                icon: Icon(MyFlutterApp.chalkboard_teacher), label: "medición"),
             BottomNavigationBarItem(
-                icon: Icon(MyFlutterApp.splotch), label: "pintura"),
+                icon: Icon(MyFlutterApp.door_closed), label: "pintura"),
             BottomNavigationBarItem(
-                icon: Icon(MyFlutterApp.splotch), label: "soldadura"),
+                icon: Icon(MyFlutterApp.foursquare), label: "soldadura"),
             BottomNavigationBarItem(
                 icon: Icon(MyFlutterApp.splotch), label: "corte"),
           ],

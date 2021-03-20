@@ -46,7 +46,7 @@ class ListviewIn extends StatelessWidget {
                 child: Text(
                   "Consulte cada una de las definiones \nUtilice la barra de navegacion para descubrir la definicion",
                   style: TextStyle(
-                    fontSize: 15,
+                    fontSize: 17,
                     fontWeight: FontWeight.bold,
                     color: Colors.pink[700],
                   ),
@@ -67,17 +67,17 @@ class ListviewIn extends StatelessWidget {
                   child: RichText(
                     text: TextSpan(
                       text:
-                          'Aqui encontraras la informacion y definiciones necesarias.',
-                      style: TextStyle(fontSize: 15, color: Colors.black),
+                          ' Aqui encontraras la informacion y definiciones necesarias.\n',
+                      style: TextStyle(fontSize: 17, color: Colors.black),
                       children: <TextSpan>[
                         TextSpan(
                             text:
-                                '\nRevisa cada una de las definiciones importantes de la mecanica industrial.',
+                                '\n Revisa cada una de las definiciones importantes de la mecanica industrial.\n',
                             style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 20)),
+                                fontWeight: FontWeight.bold, fontSize: 15)),
                         TextSpan(
-                            text: '\nPreparate con nosotros..',
-                            style: TextStyle(fontSize: 22)),
+                            text: '\n Preparate con nosotros..',
+                            style: TextStyle(fontSize: 15)),
                       ],
                     ),
                   ))

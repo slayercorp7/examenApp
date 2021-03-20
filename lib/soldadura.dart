@@ -33,17 +33,19 @@ class Soldadura extends StatelessWidget {
                       text: TextSpan(
                         text: 'Significado:',
                         style: TextStyle(
-                          fontSize: 15,
+                          fontSize: 20,
                           color: Colors.black,
                         ),
                         children: <TextSpan>[
                           TextSpan(
                               text:
                                   '\nLa soldadura es un proceso de fabricación,',
-                              style: TextStyle(fontWeight: FontWeight.bold)),
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold, fontSize: 15)),
                           TextSpan(
                               text:
-                                  '\nen el que cual se unen dos materiales distintos, normalmente metales.'),
+                                  '\nen el que cual se unen dos materiales distintos, normalmente metales.',
+                              style: TextStyle(fontSize: 15)),
                         ],
                       ),
                     ),

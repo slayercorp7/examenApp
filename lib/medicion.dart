@@ -33,17 +33,19 @@ class Medicion extends StatelessWidget {
                       text: TextSpan(
                         text: 'Significado:',
                         style: TextStyle(
-                          fontSize: 15,
+                          fontSize: 20,
                           color: Colors.black,
                         ),
                         children: <TextSpan>[
                           TextSpan(
                               text:
                                   '\nComparar una cantidad con su respectiva unidad,',
-                              style: TextStyle(fontWeight: FontWeight.bold)),
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold, fontSize: 15)),
                           TextSpan(
                               text:
-                                  '\ncon el fin de averiguar cuántas veces la segunda está contenida en la primera .'),
+                                  '\ncon el fin de averiguar cuántas veces la segunda está contenida en la primera .',
+                              style: TextStyle(fontSize: 15)),
                         ],
                       ),
                     ),
